@@ -10,10 +10,17 @@
 
 /* shared styles */
 
+.bg-secondary {
+    background-color: #FFF8F3;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
 
+.dark-1{
+    color: #181818;
+}
 .dark-2 {
     color: #474747;
 }
@@ -32,6 +39,14 @@
     border-radius: 5px;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+}
 /* header styles */
 
 .header {
@@ -88,10 +103,38 @@ nav li a {
     font-weight: bold;
 }
 
-.banner-description {
+/*.banner-description {
     font-size: 18 px;
 }
-
+*/
 .banner-profile-pic {
     width: 580px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+/* about styles */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    color: #757575;
+}
+
+.item-description {
+    color: #474747;
+    font-weight: bold;
 }
